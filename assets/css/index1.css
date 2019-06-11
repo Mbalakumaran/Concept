@@ -1,0 +1,235 @@
+.pad0{
+    padding: 0%;
+}
+/*----header----*/
+
+/*----banner---*/
+.banner {
+    position: relative;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-overlay{
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.banner-desc{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.banner-desc h1
+{	
+    color: #FFFFFF;	
+	font-family: "Lato";	
+	font-size: 51px;	
+	line-height: 66px;
+	padding-bottom: 20px;
+}
+.banner-desc p
+{
+    color: #FFFFFF;
+	font-family: "Lato";
+	font-size: 18px;	
+    line-height: 24px;	
+    width: 56%;
+    margin: 0 auto;
+}
+.blue-btn{
+    background: linear-gradient(323.74deg, #00ACF3 0%, #0074E4 100%);
+    color: #FFFFFF!important;
+	padding: 19px 0px;
+    min-width: 200px;
+	text-decoration: none;
+	display: inline-block;
+    cursor: pointer;
+    font-family: "Lato";
+    border-radius: 25px;
+    font-size: 12px;	
+    letter-spacing: 3px;	
+    line-height: 14px;
+    margin-top: 31px;
+}
+/*---conection---*/
+.communication{
+    height: 644px;
+    width: 101%;
+    box-sizing: border-box;
+    border: 1px solid #DADADA;
+}
+.communication-list{
+    height: 644px;
+    width: 453px;
+    background-color: #ECECEC;
+    padding: 50px 50px;
+}
+.communication-list h1{
+    text-align: left;
+    padding-left: 89px;
+    padding-bottom: 69px;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 28px;
+    letter-spacing: -0.6px;
+    line-height: 42px;
+    margin: 0px;}
+.communication-list ul{
+    list-style: none;
+    padding-left: 84px;
+}
+.communication-list li{
+    padding-bottom: 40px;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 25px;
+}
+.communication-list img{
+    padding-right: 18px;
+}
+.blue1-btn{
+    background: linear-gradient(323.74deg, #00ACF3 0%, #0074E4 100%);
+    color: #FFFFFF!important;
+    cursor: pointer;
+    padding: 14px 60px;
+    margin-left: 65px;
+    border-radius: 5px;
+}
+.content{
+    background-color: #F6F7F9;    
+    padding: 80px 61px;
+    height: 644px;
+    width: 892px;
+}
+.Audio h1{
+    color: #0074E4;	
+    font-family: "Lato";	
+    font-size: 21px;	
+    letter-spacing: -0.45px;	
+    line-height: 48px;
+    margin: 0px;
+}
+.Audio p{
+    opacity: 0.7;	
+    color: #333333;	
+    font-family: "Lato";	
+    font-size: 15px;	
+    line-height: 29px;
+    padding-bottom: 80px;
+    margin: 0px;
+}
+.solution h2{
+    color: #000000;	
+    font-size: 14px;
+    font-family: "Lato";	
+    letter-spacing: 3.5px;	
+    line-height: 21px;
+    margin: 0px;
+}
+.solution ul{
+    list-style: none;
+    display: inline-block;
+    padding-top: 32px;
+    margin: 0px;
+    padding-bottom: 82px;
+}
+.solution li{
+    color: #171C34;;	
+    font-family: "Lato";	
+    font-size: 18px;	
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 54px;
+}
+.Audio img{
+    padding-right: 14px;
+}
+.Partner h2{
+    color: #000000;	
+    font-size: 14px;
+    font-family: "Lato";	
+    letter-spacing: 3.5px;	
+    line-height: 21px;
+    margin: 0px;
+}
+.Partner img{
+    height: 31px;	
+    width: 94px;
+}
+.Partner ul{
+    list-style: none;
+    display: inline-block;
+    padding-top: 41px;
+    margin: 0px;
+}
+.Partner ul li{
+    color: #171C34;;	
+    font-family: "Lato";	
+    font-size: 18px;	
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 75px;
+}
+
+/*---team---*/
+.team-section{
+    padding: 0px 140px;
+    margin: 0px!important;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.team-section-head{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.team-section-head h1{
+    margin: 0px;
+    padding-bottom: 14px;
+    color: #000000;	
+    font-family: "Lato";	
+    font-size: 28px;		
+    letter-spacing: -0.6px;	
+    line-height: 42px;
+}
+.team-section-head p{
+    color: rgb(0, 0, 0, 0.7);	
+    font-family: "Lato";	
+    font-size: 15px;	
+    line-height: 28px;
+    margin: 0;
+}
+.team{
+    padding-bottom: 50px;
+}
+.team h1{
+    color: #2C2E30;	
+    font-family: "Lato";	
+    font-size: 22px;	
+    line-height: 27px;
+    margin: 0;
+    padding-left: 54px;
+}
+.team p{	
+    color: rgb(0, 0, 0, 0.7);	
+    font-family: "Lato";	
+    font-size: 15px;	
+    line-height: 26px;
+    text-align: left;
+    width: 90%;
+    padding-top: 25px;
+}

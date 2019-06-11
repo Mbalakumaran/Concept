@@ -1,0 +1,75 @@
+.contact{
+    padding: 160px 250px;
+    background-color: #485563;
+    width: 101%;
+    margin: 0%;
+}
+
+.get-in-touch {
+    background-color: #fff;
+    display: inline-block;
+    width: 440px;
+    height: 456px;
+}
+.git-heading h2 {
+    color: #333333;
+    font-size: 26px;
+    letter-spacing: -0.56px;
+    line-height: 48px;
+}
+.git-heading p {
+    color: rgb(51, 51, 51,0.6);
+    font-size: 16px;
+    line-height: 24px;
+}
+.git-form .form-control {
+    height: 46px;
+    border-radius: 4px;
+    background-color: rgba(235, 235, 235, .6);
+    border: none;
+    box-shadow: none;
+    padding: 6px 15px;
+}
+.git-form .form-control .email{
+    width: 220px;
+}
+.git-form .form-control .mobile{
+
+}
+.git-form .form-control .message {
+    height: 74px;
+}
+.blue-btn {
+    padding: 12px 0px;
+    min-width: 170px;
+    border-radius: 4px;
+    float: right;
+}
+.blue-btn{
+color: #FFFFFF;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 3px;
+background: linear-gradient(323.74deg, #00ACF3 0%, #0074E4 100%);
+max-width: 200px;
+padding: 18px 0px;
+display: block;
+border-radius: 25px;
+}
+.address{
+    display: inline-block;
+    background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+    width: 374px;
+    padding: 100px 50px;
+    padding-bottom: 60px;
+    vertical-align: top;
+}
+.address1{
+    color: #000000;	
+    font-family: Lato;	
+    font-size: 12px;	
+    font-weight: bold;	
+    letter-spacing: 3px;	
+    line-height: 15px;
+}
